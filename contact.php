@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="assets-css/style.css">
+  <link rel="stylesheet" href="/assets-css/style.css">
 </head>
 
 <body class="bodyContact">
@@ -53,11 +53,11 @@
 </body>
 
 <h3 class="contactH3">
-  <img src="https://media-cdn.tripadvisor.com/media/photo-m/1280/20/92/cd/fb/logo-mcdonald-s.jpg">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Fiat_Automobiles_logo.svg/240px-Fiat_Automobiles_logo.svg.png">
-  <img src="https://blog.routinehub.co/content/images/2023/02/openAI-chat-gpt-1.jpg">
-  <img src="https://cdn.worldvectorlogo.com/logos/friskies.svg">
-  <img src="assets-img/Jf.png">
+  <img src="/assets-img/logo-mcdonald-s.jpg">
+  <img src="/assets-img/240px-Fiat_Automobiles_logo.svg.png">
+  <img src="/assets-img/openAI-chat-gpt-1.jpg">
+  <img src="/assets-img/friskies.svg">
+  <img src="/assets-img/Jf.png">
 </h3>
 
 <?php

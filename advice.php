@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets-css/style.css" />
+  <link rel="stylesheet" href="/assets-css/style.css" />
   <title>Conseils</title>
 </head>
 
@@ -27,7 +27,7 @@
 
 
     <div class="advice1">
-      <img class="leftimg" src="assets-img/advice1img.jpg" alt="small cyber cat">
+      <img class="leftimg" src="/assets-img/advice1img.jpg" alt="small cyber cat">
       1- Trouvez un kit de construction de robot : il existe de nombreux kits
       de construction de robot disponibles sur le marché. Recherchez des kits
       spécialement conçus pour construire un chat robot.
@@ -40,11 +40,11 @@
       kit pour assembler le chat robot. Cela implique généralement de
       connecter les différentes parties du robot, comme le corps, la tête, les
       pattes et la queue.
-      <img class="rightimg" src="assets-img/advice2img.jpg" alt="white cyber cat">
+      <img class="rightimg" src="/assets-img/advice2img.jpg" alt="white cyber cat">
     </div>
 
     <div class="advice3">
-      <img class="leftimg" src="assets-img/advice3img.jpg" alt="black cyber cat">
+      <img class="leftimg" src="/assets-img/advice3img.jpg" alt="black cyber cat">
       3- Programmez le chat robot : Une fois que vous avez assemblé le chat
       robot, vous devez le programmer. La plupart des kits de robotique
       viennent avec un logiciel de programmation. Vous pouvez également
@@ -58,10 +58,10 @@
       robot, vous devez l'entraîner. Vous pouvez le faire en utilisant des
       capteurs pour détecter les objets et les obstacles, en enseignant au
       robot à se déplacer et à se comporter comme un chat.
-      <img class="rightimg" src="assets-img/advice4img.jpg" alt="profile cyber cat">
+      <img class="rightimg" src="/assets-img/advice4img.jpg" alt="profile cyber cat">
     </div>
     <div class="advice5">
-      <img class="leftimg" src="assets-img/advice5img.jpg" alt="cutest cyber kitten">
+      <img class="leftimg" src="/assets-img/advice5img.jpg" alt="cutest cyber kitten">
       5- Amusez-vous avec votre chat robot : Une fois que vous avez terminé de
       construire et de programmer votre chat robot, vous pouvez passer du
       temps à jouer avec lui et à l'observer interagir avec son environnement.

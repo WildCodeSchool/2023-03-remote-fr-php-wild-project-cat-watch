@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+@media screen and (min-width:800px) {
+
+    /*pc*/
+    #nyanmobile {
+        display: none;
+    }
+
+    #mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    /*mobile*/
+    #nyanpc {
+        display: none;
+    }
+
+    #vide {
+        display: none;
+        color: rgb(1, 1, 58)
+    }
+
+    #logo {
+        visibility: hidden;
+    }
+
+
+    #mobile {
+        width: 100%;
+        background-color: #090B3C;
+        display: flex;
+        justify-content: center;
+        height: 2rem;
+        z-index: 20;
+
+    }
+
+    #logomobile {
+        width: 5rem;
+        z-index: 20;
+
+        /* animation: rotate 2s linear infinite, rotate 2s linear infinite;  */
+    }
+
+    ul, li {
+        font-size: 1rem;
+        z-index: 1;
+
+    }
+}
+
+/* Navbar */
+ul {
+    margin-top: -0.25rem;
+    z-index: 1;
+}
+
+nav {
+    background-color: #090B3C;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 1rem;
+    top: 0;
+    z-index: 1;
+    font-family: 'Iceland', cursive;
+    font-size: 2rem;
+}
+
+#logo {
+    position: fixed;
+    width: 8rem;
+    top: 0px;
+    left: 1rem;
+    display: block;
+    z-index: 5;
+    margin-top: -0.2rem;
+}
+
+/* Pour faire un place au logo */
+#vide {
+    flex: 1
+}
+
+nav>ul {
+    height: 5rem;
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav>ul>li {
+    position: relative;
+    height: 100%;
+    flex: 2;
+
+}
+
+nav>ul>li>a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.menu-deroulant>a:after {
+
+    font-size: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.menu-deroulant a span:after {
+    font-size: 1rem;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.sous-menu {
+    margin-top: 5rem;
+    width: 100%;
+    text-align: left;
+    background-color: #272957;
+    border-radius: 2px;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.menu-deroulant:hover>a:after {
+    animation: rotationFleche 0.2s linear forwards;
+}
+
+
+.sous-menu>li>a {
+    height: 50px;
+    padding-left: 40px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+nav>ul>li:hover>a {
+    color: #ecde21;
+}
+
+.sous-menu>li:hover {
+    background-color: rgba(33, 105, 236, 0.3);
+}
+
+.sous-menu>li:hover>a {
+    color: white;
+}
+
+
+@keyframes apparitionSousMenu {
+    0% {
+        box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0);
+        border-top: 3px solid #ecde21;
+    }
+
+    30% {
+        box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    }
+
+    100% {
+        max-height: 50em;
+        border-top: 3px solid #ecde21;
+        box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    }
+}
+
+.menu-deroulant:hover>.sous-menu {
+    animation: apparitionSousMenu 1s forwards;
+}
+
+
+#logo:hover {
+    animation: rotate 2s linear infinite, rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(0deg);
+    }
+
+    30% {
+        transform: rotate(-15deg);
+    }
+
+    85% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#nyanpc {
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    cursor: pointer;
+    opacity:0.10;
+}
+#nyanpc:hover{
+opacity: 1;
+}

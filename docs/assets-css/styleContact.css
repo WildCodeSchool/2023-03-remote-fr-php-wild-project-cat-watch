@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Zen+Tokyo+Zoo&display=swap");
+
+h2.contactH2 {
+  background-image: url(https://img.freepik.com/photos-premium/chat-robot-illustration-numerique-portrait-chat-curieux-robotique-futuriste-personnage-chat-si-fi_510654-333.jpg?w=1800);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Zen Tokyo Zoo", cursive;
+  color: #fefacc;
+  font-size: 4rem;
+  font-weight: 400;
+  text-shadow: -2px 0px 0px #120a08, 2px 0px 0px #CE5937, 0px 2px 0px #CE5937, 0px -2px 0px #CE5937, 1px -1px 0px #CE5937, -2px -2px 0px #CE5937, 2px -1px 0px #CE5937, -2px 2px 0px #CE5937, 2px 2px 0px #CE5937, 2px 2px 0px #CE5937; 
+}
+  
+/* Contact box */
+
+  body.contactBody {
+    font-size: 12px;
+  }
+  
+  body.contactBody, button.app-form-button, input {
+    font-family: 'Iceland';
+    font-weight: 25px;
+    letter-spacing: 1.4px;
+  }
+  
+  .background {
+    display: flex;
+    min-height: 53vh;
+  }
+
+
+  .container {
+    flex: 0 1 500px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .screen {
+    position: relative;
+    background: #e5e5e5;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+  
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 30px;
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #212135;
+    font-family: "Iceland";
+    font-size: 40px;
+  }
+  
+  .app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 65px;
+    height: 4px;
+    background: #f8cf95;
+  }
+  
+  .app-contact {
+    margin-top: auto;
+    font-size: 10px;
+    color: #172023;
+  }
+  
+  .app-form-group {
+    margin-bottom: 5px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #666;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #f8b04c;
+  }
+  
+  .app-form-button {
+    background: none;
+    border: none;
+    color: #172023;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .app-form-button:hover {
+    color: #f6a35a;
+  }
+  
+  @media screen and (max-width: 520px) {
+    .screen-body {
+      flex-direction: column;
+    }
+  
+    .screen-body-item.left {
+      margin-bottom: 30px;
+    }
+  
+    .app-title {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+    .contacth3 {
+      padding : 1rem;
+    }
+  }
+
+h3.contactH3 {
+    display: flex;
+    justify-content: space-around;
+    max-width: auto;
+    height : 100px;
+    margin-bottom: 2rem;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 600px) {
+    
+    .contactH3 img {
+      height: 60px;
+    }
+  }

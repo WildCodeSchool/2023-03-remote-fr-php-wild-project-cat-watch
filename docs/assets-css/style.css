@@ -1,0 +1,17 @@
+@import url(./styleFooter.css);
+@import url(./styleHeader.css);
+@import url(./styleMain.css);
+@import url(./styleNav.css);
+@import url(./styleSection.css);
+@import url(./styleContact.css);
+@import url(./styleAdvice.css);
+@import url(./styleArticles.css);
+@import url(./styleMainImgIndex.css);
+@import url(./styleArticleChatbots.css);
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+button {
+    cursor: pointer;
+}
+
+

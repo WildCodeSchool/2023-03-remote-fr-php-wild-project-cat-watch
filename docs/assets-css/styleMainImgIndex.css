@@ -1,0 +1,44 @@
+img.indexMainImg {
+    max-height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: 25% 50%;
+    margin-bottom: 2em;
+}
+
+div.mainImgContainer {
+    position: relative;
+    text-align: center;
+}
+
+
+/* police */
+
+div.centered {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-0%, -80%);
+    font-family: "Zen Tokyo Zoo", cursive;
+    color: #fefacc;
+    font-size: 5.5vh;
+    font-weight: 400;
+    text-shadow: -2px 0px 0px #120a08, 2px 0px 0px #CE5937, 0px 2px 0px #CE5937, 0px -2px 0px #CE5937, 1px -1px 0px #CE5
+}
+
+@media screen and (max-width: 601px) {
+    img.indexMainImg {
+        min-height: 90vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    div.centered {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 7vh;
+    }
+}

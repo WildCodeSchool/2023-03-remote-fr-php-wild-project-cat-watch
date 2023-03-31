@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./assets-css/style.css">
+    <link rel="stylesheet" href="/assets-css/style.css">
 
     <title>Cat Watch</title>
 </head>
@@ -41,7 +41,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="article_1.php">
+                    <form action="/article_1.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
@@ -63,7 +63,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="article_2.php">
+                    <form action="/article_2.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
@@ -86,7 +86,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="article_3.php">
+                    <form action="/article_3.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
@@ -111,7 +111,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="article_4.php">
+                    <form action="/article_4.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>
@@ -134,7 +134,7 @@
 
                 </ul>
                 <div class="buttonContainerIndex">
-                    <form action="article_5.php">
+                    <form action="/article_5.php">
                         <button class="buttonIndex">More...</button>
                     </form>
                 </div>

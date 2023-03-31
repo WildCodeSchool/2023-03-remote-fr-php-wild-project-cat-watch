@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/assets-css/style.css">
+    <link rel="stylesheet" href="/2023-03-remote-fr-php-wild-project-cat-watch/assets-css/style.css">
 
     <title>Cat Watch</title>
 </head>
@@ -19,11 +19,86 @@
 
     <!-- nav bar starts here -->
 
-    <?php include("./assets-php/navBar.php"); ?>
+    <audio id="myAudio">
+    <source src="/2023-03-remote-fr-php-wild-project-cat-watch/nyancat.ogg" type="audio/ogg">
 
+</audio>
+<nav>
+    <div id="mobile"><a href="/2023-03-remote-fr-php-wild-project-cat-watch/index.html"><img id="logomobile" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/Illustration-sans-titre-4.png" alt="Illustration-sans-titre-1" border="0"></a> </div>
+
+    <a href="/2023-03-remote-fr-php-wild-project-cat-watch/index.html"><img id="logo" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/Illustration-sans-titre-4.png" alt="Illustration-sans-titre-1" border="0"></a>
+
+    <ul id="rainbow">
+        <li id="vide"></li>
+        <li class="menu-deroulant">
+            <a href="/2023-03-remote-fr-php-wild-project-cat-watch#">Articles</a>
+            <ul id="rainbow2" class="sous-menu">
+                <li><a href="/2023-03-remote-fr-php-wild-project-cat-watch/articlesChattearoulete.html">Chattearoulette</a></li>
+                <li><a href="/2023-03-remote-fr-php-wild-project-cat-watch/articlesChattearoulete.html">Chastronaute</a></li>
+                <li><a href="/2023-03-remote-fr-php-wild-project-cat-watch/articlesChattearoulete.html">Chatbot</a></li>
+                <li><a href="/2023-03-remote-fr-php-wild-project-cat-watch/articlesChattearoulete.html">Chatliennes</a></li>
+            </ul>
+        </li>
+
+        <li><a href="/2023-03-remote-fr-php-wild-project-cat-watch/advice.html">Conseils</a></li>
+        <li><a href="/2023-03-remote-fr-php-wild-project-cat-watch/contact.html">Contacts</a></li>
+
+    </ul>
+    <script>
+        function changeImagepc() {
+            if (document.getElementById("logo").src=="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/Illustration-sans-titre-4.png") {
+                document.getElementById("logo").src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/pngwing-com-1.png"
+
+            } else if (document.getElementById("logo").src=="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/pngwing-com-1.png") {
+                document.getElementById("logo").src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/Illustration-sans-titre-4.png"
+            }
+        }
+
+        function changeImageMobile() {
+
+            if (document.getElementById("logomobile").src=="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/Illustration-sans-titre-4.png") {
+                document.getElementById("logomobile").src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/pngwing-com-1.png"
+
+            } else if (document.getElementById("logomobile").src=="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/pngwing-com-1.png") {
+                document.getElementById("logomobile").src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/Illustration-sans-titre-4.png"
+            }
+
+        }
+
+        function colorRainbow() {
+            if (document.getElementById("logo").src=="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/Illustration-sans-titre-4.png") {
+                document.getElementById("rainbow").style.backgroundImage = "linear-gradient(to bottom,Red , Orange, Yellow, Green, Blue, Indigo, Violet)";
+                document.getElementById("rainbow3").style.backgroundImage = "linear-gradient(to bottom,Red , Orange, Yellow, Green, Blue, Indigo, Violet)";
+                document.getElementById("myAudio").play();
+                document.getElementById("rainbow2").style.backgroundImage = "linear-gradient(to bottom,Red , Orange, Yellow, Green, Blue, Indigo, Violet)";
+                document.getElementById("rainbow4").style.backgroundImage = "linear-gradient(to bottom,Red , Orange, Yellow, Green, Blue, Indigo, Violet)";
+                document.getElementById("rainbow6").style.backgroundImage = "linear-gradient(to bottom,Red , Orange, Yellow, Green, Blue, Indigo, Violet)";
+                document.getElementById("rainbow7").style.backgroundImage = "linear-gradient(to bottom,Red , Orange, Yellow, Green, Blue, Indigo, Violet)";
+                document.getElementById("rainbow8").style.backgroundImage = "linear-gradient(to bottom,Red , Orange, Yellow, Green, Blue, Indigo, Violet)";
+                document.getElementById("rainbow5").style.backgroundImage = "linear-gradient(to bottom,Red , Orange, Yellow, Green, Blue, Indigo, Violet)";
+                // document.getElementById("rainbow5").style.backgroundImage = "url(https://i.ibb.co/TgLYpvK/robot-unicorn-wallpaper-unicorns-wallpaper-1496408534.jpg)";
+
+
+            } else if (document.getElementById("logo").src=="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/pngwing-com-1.png") {
+                document.getElementById("rainbow").style.backgroundImage = 'none';
+                document.getElementById("rainbow3").style.backgroundImage = 'none';
+                document.getElementById("myAudio").pause();
+                document.getElementById("rainbow2").style.backgroundImage = 'none';
+                document.getElementById("rainbow4").style.backgroundImage = 'none';
+                document.getElementById("rainbow5").style.backgroundImage = "none";
+                document.getElementById("rainbow5").style.backgroundColor = '#e0f8fe';
+                document.getElementById("rainbow6").style.backgroundImage = 'none';
+                document.getElementById("rainbow7").style.backgroundImage = 'none';
+                document.getElementById("rainbow8").style.backgroundImage = 'none';
+            }
+        }
+    </script>
+</nav>
     <!-- nav bar ends here-->
-    <?php include("./assets-php/mainImgIndex.php"); ?>
-
+    <div class="mainImgContainer">
+    <img class="indexMainImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/1000-F-540542211-cst3a-Gs95-TS0c-EZhb2-Mg-Mitic-C7roz-Bz-edited.jpg" alt="Robot cat facing off a organic cat through a window">
+    <div class="centered">CAT WATCH<button type="button" id="nyanpc" onclick="colorRainbow(); changeImagepc(); colorainbow2();">&#128008;</button></div>
+</div>
     <!-- article list -->
     <section class="indexSection">
 
@@ -38,7 +113,7 @@
             <div class="mainNewsFlash" class="image" data-card="">
                 <div class="mainNewsFlashContainer">
                     <div class="mainImgContainerIndex">
-                        <img class="mainImg" src="/assets-img/imgarticleval.jpg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
+                        <img class="mainImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/imgarticleval.jpg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
                     </div>
                     <div class="mainNewsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -48,7 +123,7 @@
                             Ces derniers, programmés pour être doux et affectueux, semblent avoir soudainement changé de comportement, devenant agressifs et dangereux.
                             Des experts en robotique et en intelligence artificielle s'inquiètent de cette évolution et appellent à la prudence.
                         </p>
-                        <form action="/article_1.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_1.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -58,7 +133,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874527-02.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874527-02.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -69,7 +144,7 @@
                             le comportement d'un animal de compagnie félin. Ces robots sont généralement alimentés par des batteries,
                             mais les batteries traditionnelles ont une capacité limitée et nécessitent des recharges fréquentes..
                         </p>
-                        <form action="/article_2.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_2.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -79,7 +154,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2204103757-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2204103757-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -89,7 +164,7 @@
                             Ces robots ont été conçus pour imiter le comportement et les mouvements d'un animal de compagnie félin réel, offrant de la compagnie et du divertissement à leurs propriétaires.
                             L'un des derniers modèles de robots pour chats à arriver sur le marché est le Felis Catus X-1, et il génère déjà du buzz dans l'industrie.
                         </p>
-                        <form action="/article_3.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_3.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -99,7 +174,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874533-edited.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874533-edited.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">15/06/2599</p>
@@ -110,7 +185,7 @@
                             Dans cet article, nous allons explorer les différences entre les chats bio et les chats robots.
 
                         </p>
-                        <form action="/article_5.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_5.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -120,7 +195,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874523-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874523-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">15/06/2599</p>
@@ -131,7 +206,7 @@
                             Dans cet article, nous allons explorer les différences entre les chats bio et les chats robots.
 
                         </p>
-                        <form action="/article_4.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_4.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -141,7 +216,7 @@
         </article>
 
         <div class="buttonContainerIndex">
-            <form action="/articlesChattearoulete.php">
+            <form action="/2023-03-remote-fr-php-wild-project-cat-watch/articlesChattearoulete.html">
                 <button class="buttonIndex">More...</button>
             </form>
         </div>
@@ -156,7 +231,7 @@
             <div class="mainNewsFlash" class="image" data-card="">
                 <div class="mainNewsFlashContainer">
                     <div class="mainImgContainerIndex">
-                        <img class="mainImg" src="/assets-img/imgarticleval.jpg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
+                        <img class="mainImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/imgarticleval.jpg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
                     </div>
                     <div class="mainNewsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -166,7 +241,7 @@
                             Ces derniers, programmés pour être doux et affectueux, semblent avoir soudainement changé de comportement, devenant agressifs et dangereux.
                             Des experts en robotique et en intelligence artificielle s'inquiètent de cette évolution et appellent à la prudence.
                         </p>
-                        <form action="/article_1.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_1.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -176,7 +251,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874527-02.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874527-02.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -187,7 +262,7 @@
                             le comportement d'un animal de compagnie félin. Ces robots sont généralement alimentés par des batteries,
                             mais les batteries traditionnelles ont une capacité limitée et nécessitent des recharges fréquentes..
                         </p>
-                        <form action="/article_2.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_2.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -197,7 +272,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2204103757-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2204103757-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -207,7 +282,7 @@
                             Ces robots ont été conçus pour imiter le comportement et les mouvements d'un animal de compagnie félin réel, offrant de la compagnie et du divertissement à leurs propriétaires.
                             L'un des derniers modèles de robots pour chats à arriver sur le marché est le Felis Catus X-1, et il génère déjà du buzz dans l'industrie.
                         </p>
-                        <form action="/article_3.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_3.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -217,7 +292,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874533-edited.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874533-edited.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">15/06/2599</p>
@@ -228,7 +303,7 @@
                             Dans cet article, nous allons explorer les différences entre les chats bio et les chats robots.
 
                         </p>
-                        <form action="/article_5.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_5.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -238,7 +313,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874523-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874523-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">15/06/2599</p>
@@ -249,7 +324,7 @@
                             Dans cet article, nous allons explorer les différences entre les chats bio et les chats robots.
 
                         </p>
-                        <form action="/article_4.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_4.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -258,7 +333,7 @@
         </article>
 
         <div class="buttonContainerIndex">
-            <form action="articlesChatstronaute.php">
+            <form action="/2023-03-remote-fr-php-wild-project-cat-watcharticlesChatstronaute.html">
                 <button class="buttonIndex">More...</button>
             </form>
         </div>
@@ -273,7 +348,7 @@
             <div class="mainNewsFlash" class="image" data-card="">
                 <div class="mainNewsFlashContainer">
                     <div class="mainImgContainerIndex">
-                        <img class="mainImg" src="/assets-img/imgarticleval.jpg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
+                        <img class="mainImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/imgarticleval.jpg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
                     </div>
                     <div class="mainNewsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -283,7 +358,7 @@
                             Ces derniers, programmés pour être doux et affectueux, semblent avoir soudainement changé de comportement, devenant agressifs et dangereux.
                             Des experts en robotique et en intelligence artificielle s'inquiètent de cette évolution et appellent à la prudence.
                         </p>
-                        <form action="/article_1.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_1.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -293,7 +368,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874527-02.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874527-02.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -304,7 +379,7 @@
                             le comportement d'un animal de compagnie félin. Ces robots sont généralement alimentés par des batteries,
                             mais les batteries traditionnelles ont une capacité limitée et nécessitent des recharges fréquentes..
                         </p>
-                        <form action="/article_2.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_2.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -314,7 +389,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2204103757-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2204103757-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -324,7 +399,7 @@
                             Ces robots ont été conçus pour imiter le comportement et les mouvements d'un animal de compagnie félin réel, offrant de la compagnie et du divertissement à leurs propriétaires.
                             L'un des derniers modèles de robots pour chats à arriver sur le marché est le Felis Catus X-1, et il génère déjà du buzz dans l'industrie.
                         </p>
-                        <form action="/article_3.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_3.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -334,7 +409,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874533-edited.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874533-edited.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">15/06/2599</p>
@@ -345,7 +420,7 @@
                             Dans cet article, nous allons explorer les différences entre les chats bio et les chats robots.
 
                         </p>
-                        <form action="/article_5.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_5.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -355,7 +430,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874523-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874523-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">15/06/2599</p>
@@ -366,7 +441,7 @@
                             Dans cet article, nous allons explorer les différences entre les chats bio et les chats robots.
 
                         </p>
-                        <form action="/article_4.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_4.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -375,7 +450,7 @@
         </article>
 
         <div class="buttonContainerIndex">
-            <form action="articlesChatbot.php">
+            <form action="/2023-03-remote-fr-php-wild-project-cat-watcharticlesChatbot.html">
                 <button class="buttonIndex">More...</button>
             </form>
         </div>
@@ -390,7 +465,7 @@
             <div class="mainNewsFlash" class="image" data-card="">
                 <div class="mainNewsFlashContainer">
                     <div class="mainImgContainerIndex">
-                        <img class="mainImg" src="/assets-img/imgarticleval.jpg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
+                        <img class="mainImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/imgarticleval.jpg" alt="Cute handicapped cat with a wheeled contraption attached to its body, allowing it to move freely!">
                     </div>
                     <div class="mainNewsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -400,7 +475,7 @@
                             Ces derniers, programmés pour être doux et affectueux, semblent avoir soudainement changé de comportement, devenant agressifs et dangereux.
                             Des experts en robotique et en intelligence artificielle s'inquiètent de cette évolution et appellent à la prudence.
                         </p>
-                        <form action="/article_1.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_1.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -410,7 +485,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874527-02.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874527-02.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -421,7 +496,7 @@
                             le comportement d'un animal de compagnie félin. Ces robots sont généralement alimentés par des batteries,
                             mais les batteries traditionnelles ont une capacité limitée et nécessitent des recharges fréquentes..
                         </p>
-                        <form action="/article_2.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_2.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -431,7 +506,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2204103757-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2204103757-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">24/03/2167</p>
@@ -441,7 +516,7 @@
                             Ces robots ont été conçus pour imiter le comportement et les mouvements d'un animal de compagnie félin réel, offrant de la compagnie et du divertissement à leurs propriétaires.
                             L'un des derniers modèles de robots pour chats à arriver sur le marché est le Felis Catus X-1, et il génère déjà du buzz dans l'industrie.
                         </p>
-                        <form action="/article_3.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_3.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -451,7 +526,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874533-edited.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874533-edited.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">15/06/2599</p>
@@ -462,7 +537,7 @@
                             Dans cet article, nous allons explorer les différences entre les chats bio et les chats robots.
 
                         </p>
-                        <form action="/article_5.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_5.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -472,7 +547,7 @@
             <div class="newsFlash" data-card="">
                 <div class="newsFlashContainer">
                     <div class="imgContainerIndex">
-                        <img class="secondaryImg" src="/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874523-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
+                        <img class="secondaryImg" src="/2023-03-remote-fr-php-wild-project-cat-watch/assets-img/stock-photo-futuristic-cyber-cat-in-cyberpunk-style-2205874523-01.jpg" alt="Cat running in a cat wheel having fun... awww how cuuute!">
                     </div>
                     <div class="newsFlashContent">
                         <p class="date">15/06/2599</p>
@@ -483,7 +558,7 @@
                             Dans cet article, nous allons explorer les différences entre les chats bio et les chats robots.
 
                         </p>
-                        <form action="/article_4.php">
+                        <form action="/2023-03-remote-fr-php-wild-project-cat-watch/article_4.html">
                             <button class="button_link" type="submit">la suite ici</button>
                         </form>
                     </div>
@@ -492,7 +567,7 @@
         </article>
 
         <div class="buttonContainerIndex">
-            <form action="articlesChaliennes.php">
+            <form action="/2023-03-remote-fr-php-wild-project-cat-watcharticlesChaliennes.html">
                 <button class="buttonIndex">More...</button>
             </form>
         </div>
@@ -511,7 +586,18 @@
 
     <!-- footer starts here -->
 
-    <?php include("./assets-php/footer.php"); ?>
+    <div class="footerBody">
+  <div class="footer">
+
+    <footer id="rainbow3">
+      <ul>
+        <li><a href='https://assets3.thrillist.com/v1/image/2864657/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70'>Privacy</a></li>
+        <li><a href='https://www.termsandconditionsgenerator.com/live.html?token=uzMuR2iISj2BhDKnbdsValHtwDL9DR8S'>Terms and conditions</a></li>
+        <li><a href='https://www.instagram.com/chatdefrance/'>@chatdeFrance</a></li>
+      </ul>
+    </footer>
+  </div>
+</div>
 
     <!-- end of footer -->
 
